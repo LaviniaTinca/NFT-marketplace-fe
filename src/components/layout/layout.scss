@@ -18,11 +18,12 @@
 }
 
 .secondary-filled-btn {
-  width: 186px;
+  width: 152px;
   height: 60px;
   border-radius: 20px;
   color: $text;
   background-color: $purple;
+  padding: 0 30px;
 }
 
 .secondary-outlined-btn {
@@ -49,4 +50,11 @@
   color: $text;
   background-color: $bg-primary;
   border: 1px solid $purple;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
