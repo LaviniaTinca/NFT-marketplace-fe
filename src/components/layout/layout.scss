@@ -1,0 +1,52 @@
+@import "../../utils/scss/variables.scss";
+
+.primary-filled-btn {
+  width: 206px;
+  height: 72px;
+  border-radius: 20px;
+  color: $text;
+  background-color: $purple;
+}
+
+.primary-outlined-btn {
+  width: 206px;
+  height: 72px;
+  border-radius: 20px;
+  color: $text;
+  background-color: $bg-primary;
+  border: 1px solid $purple;
+}
+
+.secondary-filled-btn {
+  width: 186px;
+  height: 60px;
+  border-radius: 20px;
+  color: $text;
+  background-color: $purple;
+}
+
+.secondary-outlined-btn {
+  width: 186px;
+  height: 60px;
+  border-radius: 20px;
+  color: $text;
+  background-color: $bg-primary;
+  border: 1px solid $purple;
+}
+
+.tertiary-filled-btn {
+  width: 186px;
+  height: 46px;
+  border-radius: 20px;
+  color: $text;
+  background-color: $purple;
+}
+
+.tertiary-outlined-btn {
+  width: 186px;
+  height: 46px;
+  border-radius: 20px;
+  color: $text;
+  background-color: $bg-primary;
+  border: 1px solid $purple;
+}

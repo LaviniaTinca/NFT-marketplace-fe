@@ -1,0 +1,26 @@
+// Imports
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans&display=swap");
+
+// Font families
+$space: "Space Mono";
+$work: "Work Sans";
+
+// Font weights
+
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+
+// Font sizes
+
+$fs-small: 0.75rem; // 12px
+$fs-big: 5.375rem; // 86px
+
+// To add line-height
+
+$lh-small: 18px;
+$lh-medium: 24px;
+$lh-big: 28px;
+$lh-gigant: 100px;
