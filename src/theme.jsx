@@ -28,7 +28,7 @@ const theme = createTheme({
     // workSans: {
     fontFamily: "Work Sans, sans-serif",
     h1: {
-      fontSize: 28,
+      fontSize: 67,
       fontWeight: 600,
     },
     h2: {
@@ -40,20 +40,29 @@ const theme = createTheme({
       fontWeight: 600,
     },
     h4: {
-      fontSize: 18,
+      fontSize: 28,
       fontWeight: 600,
+      lineHeight: "140%",
     },
     h5: {
-      fontSize: 16,
+      fontSize: 22,
       fontWeight: 600,
+      lineHeight: "140%",
     },
     base: {
       fontSize: 16,
       fontWeight: 600,
+      lineHeight: "140%",
+    },
+    body: {
+      fontSize: 22,
+      fontWeight: 400,
+      lineHeight: "160%",
     },
     caption: {
       fontSize: 12,
-      fontWeight: 600,
+      fontWeight: 400,
+      lineHeight: "110%",
     },
   },
   //},

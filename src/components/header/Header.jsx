@@ -40,7 +40,7 @@ const Header = () => {
             <NavItem label="Marketplace" path="/" />
             <NavItem label="Rankings" path="/" />
             <NavItem label="Connect a wallet" path="/" />
-            <button to="/login" className="secondary-filled-btn">
+            <button to="/login" className="secondary-filled-btn login-btn">
               <div className="flex">
                 <img className="user" src={user} alt="user icon" />
                 <Typography variant="base">Sign Up</Typography>
