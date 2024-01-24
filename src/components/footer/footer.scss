@@ -1,1 +1,55 @@
 @import "../../utils/scss/variables.scss";
+
+footer {
+  max-width: var(--max-width);
+  height: 334px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 195px;
+  background-color: $bg-secondary;
+
+  .footer-info {
+    width: 1000px;
+    height: 191px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    gap: 20px;
+  }
+
+  .nft-info {
+    // width: 327px;
+    // height: 191px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+
+    .footer-box {
+      width: 327px;
+      height: 191px;
+    }
+
+    .color {
+      color: $caption;
+    }
+
+    .color2 {
+      color: $text;
+    }
+
+    .footer-aditional-info {
+      display: flex;
+      flex-direction: column;
+      color: $caption;
+      gap: 20px;
+
+      .footer-icons {
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+      }
+    }
+  }
+}

@@ -8,6 +8,7 @@ import NavItem from "./NavItem";
 import { Typography } from "@mui/material";
 import { useState } from "react";
 import "./header.scss";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -40,12 +41,14 @@ const Header = () => {
             <NavItem label="Marketplace" path="/" />
             <NavItem label="Rankings" path="/" />
             <NavItem label="Connect a wallet" path="/" />
-            <button to="/login" className="secondary-filled-btn login-btn">
-              <div className="flex">
-                <img className="user" src={user} alt="user icon" />
-                <Typography variant="base">Sign Up</Typography>
-              </div>
-            </button>
+            <Link to="/signUp">
+              <button className="secondary-filled-btn login-btn">
+                <div className="flex">
+                  <img className="user" src={user} alt="user icon" />
+                  <Typography variant="base">Sign Up</Typography>
+                </div>
+              </button>
+            </Link>
           </div>
           <img
             className="menuButton"

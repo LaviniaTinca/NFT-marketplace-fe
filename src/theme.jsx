@@ -27,13 +27,15 @@ const theme = createTheme({
     // },
     // workSans: {
     fontFamily: "Work Sans, sans-serif",
+    // fontFamily: "Monospace, monospace",
     h1: {
       fontSize: 67,
       fontWeight: 600,
     },
     h2: {
-      fontSize: 24,
+      fontSize: 51,
       fontWeight: 600,
+      lineHeight: "110%",
     },
     h3: {
       fontSize: 38,
