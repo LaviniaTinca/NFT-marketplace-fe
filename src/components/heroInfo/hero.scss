@@ -2,7 +2,8 @@
 
 .wrapper {
   animation: rotateAnimation 8s infinite linear;
-  transform-style: preserve-3d; /* Ensures child elements are rendered in 3D space */
+  transform-style: preserve-3d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
   @keyframes rotateAnimation {
     0% {
