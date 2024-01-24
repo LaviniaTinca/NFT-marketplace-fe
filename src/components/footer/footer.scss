@@ -10,26 +10,12 @@ footer {
   background-color: $bg-secondary;
 
   .footer-info {
-    width: 1000px;
+    width: 900px;
     height: 191px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: auto;
     gap: 20px;
-  }
-
-  .nft-info {
-    // width: 327px;
-    // height: 191px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 20px;
-
-    .footer-box {
-      width: 327px;
-      height: 191px;
-    }
 
     .color {
       color: $caption;
@@ -39,16 +25,127 @@ footer {
       color: $text;
     }
 
-    .footer-aditional-info {
+    .nft-info {
+      width: 327px;
+      // height: 191px;
       display: flex;
       flex-direction: column;
-      color: $caption;
+      justify-content: flex-start;
       gap: 20px;
 
-      .footer-icons {
+      .footer-box {
+        width: 327px;
+        height: 191px;
         display: flex;
-        justify-content: flex-start;
-        gap: 10px;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .footer-aditional-info {
+        display: flex;
+        flex-direction: column;
+        color: $caption;
+        // gap: 20px;
+
+        .footer-icons {
+          display: flex;
+          justify-content: flex-start;
+          gap: 10px;
+        }
+      }
+    }
+
+    .color {
+      color: $caption;
+    }
+
+    .subscribe {
+      width: 360px;
+      height: 28px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding-left: 20px;
+      padding: 8px 0px;
+      padding-right: 0px;
+      gap: 12px;
+      background-color: $text;
+      color: $caption;
+      transition: transform 0.5s ease;
+
+      &:hover {
+        transform: scale(0.95);
+      }
+    }
+  }
+  .color {
+    color: $caption;
+  }
+
+  .subscribe-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 974px) {
+  footer {
+    height: 703px;
+  }
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .nft-info {
+    height: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    height: 776px;
+  }
+  .footer-info {
+    height: 663px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .nft-info {
+    height: 160px;
+  }
+
+  .subscribe {
+    display: none;
+  }
+
+  .subscribe-mobile {
+    display: block;
+
+    .block-mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+
+      .sub-mobile {
+        width: 315px;
+        height: 28px;
+        border-radius: 20px;
+        text-align: center;
+        padding-left: 20px;
+        padding: 8px 0px;
+        padding-right: 0px;
+        gap: 12px;
+        background-color: $text;
+        color: $caption;
       }
     }
   }

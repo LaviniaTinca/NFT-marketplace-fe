@@ -41,37 +41,52 @@ const Footer = () => {
               Explore
             </Typography>
           </div>
-          <div className="color">
-            <Typography variant="base">Marketing</Typography>
-          </div>
-          <div className="color">
-            <Typography variant="base">Rankings</Typography>
-          </div>
-          <div className="color">
-            <Typography variant="base">Connect a Wallet</Typography>
+          <div className="footer-box">
+            <div className="color">
+              <Typography variant="base">Marketing</Typography>
+            </div>
+            <div className="color">
+              <Typography variant="base">Rankings</Typography>
+            </div>
+            <div className="color">
+              <Typography variant="base">Connect a Wallet</Typography>
+            </div>
           </div>
         </div>
         <div className="nft-info">
           <div className="color2">
             <Typography variant="h5">Join Our Weekly Digest</Typography>
           </div>
-          <div className="color">
-            <Typography variant="base">
-              Get exclusive promotions & updates straight to your inbox.
-            </Typography>
-          </div>
-          <div className="subscribe">
-            <button className="tertiary-filled-btn">
-              Enter your email here
-            </button>
+          <div className="footer-box">
+            <div className="color">
+              <Typography variant="base">
+                Get exclusive promotions & updates straight to your inbox.
+              </Typography>
+            </div>
+            <div className="subscribe">
+              <Typography variant="base">Enter your email here</Typography>
+              <button className="tertiary-filled-btn">Subscribe</button>
+            </div>
+            <div className="subscribe-mobile">
+              <div className="block-mobile">
+                <Typography variant="base" className="sub-mobile">
+                  Enter your email here
+                </Typography>
+                <button className="tertiary-filled-btn sub-mobile-btn">
+                  Subscribe
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div className="footer-frame">
         <hr />
-        <Typography variant="caption">
-          Ⓒ NFT Market. Use this template freely.
-        </Typography>
+        <div className="color">
+          <Typography variant="caption">
+            Ⓒ NFT Market. Use this template freely.
+          </Typography>
+        </div>
       </div>
     </footer>
   );
