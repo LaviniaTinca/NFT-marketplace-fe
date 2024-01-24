@@ -1,1 +1,33 @@
 @import "../../utils/scss/variables.scss";
+
+.wrapper {
+  animation: rotateAnimation 8s infinite linear;
+  transform-style: preserve-3d; /* Ensures child elements are rendered in 3D space */
+
+  @keyframes rotateAnimation {
+    0% {
+      transform: rotateY(0deg);
+    }
+    25% {
+      transform: rotateY(45deg);
+    }
+    50% {
+      transform: rotateY(0deg);
+    }
+    75% {
+      transform: rotateY(-45deg);
+    }
+    100% {
+      transform: rotateY(0deg);
+    }
+    25% {
+      transform: rotateY(-45deg);
+    }
+    50% {
+      transform: rotateY(0deg);
+    }
+    75% {
+      transform: rotateY(45deg);
+    }
+  }
+}
